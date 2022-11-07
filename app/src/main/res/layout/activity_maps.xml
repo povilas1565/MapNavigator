@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.fragment.app.FragmentContainerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ButtonLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/main_toolbar"
+            layout="@layout/toolbar"
+            />
+        <!--
+        <Button
+            android:layout_width="1mm"
+            android:layout_height="1mm"
+            android:textSize="1pt"
+            android:text="Clear Map"
+            android:id="@+id/clear_map_btn"
+            />
+
+        <Button
+            android:layout_width="1mm"
+            android:layout_height="1mm"
+            android:textSize="1pt"
+            android:text="Draw Route"
+            android:id="@+id/draw_route_btn"
+            />
+
+        <Spinner
+            android:id="@+id/travel_method_menu_spinner"
+            android:layout_width="1mm"
+            android:layout_height="1mm"
+            android:background="@android:drawable/btn_dropdown" />
+
+            -->
+    </LinearLayout>
+
+</androidx.fragment.app.FragmentContainerView>
