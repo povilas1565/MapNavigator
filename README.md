@@ -1,21 +1,19 @@
 # MapNavigator
 
-## Description
-This is an Android application that uses Google's map APIs to find the user's current location. The user can place markers on the map and the application will find and draw the shortest path between the user and the marker.
+## Описание
+Это приложение для Android, которое использует API карт Google для определения текущего местоположения водителя. Водитель может размещать маркеры на карте, и приложение найдет и нарисует кратчайший путь между ним и маркером.
 
-Please note that due to emulation, the current location will always be Google's headquarters. Outside of emulation, it will be able to detect your location.
+## Предпосылки
+Требуется [Android Studio](https://developer.android.com/studio).
+- Android Studio SDK, работающий на Android API 33.
+- Для эмуляции и тестирования использовался Pixel 5 API 29.
 
-## Prerequisites
-[Android Studio](https://developer.android.com/studio) is required.
-- Android Studio SDK running on Android API 33.
-- A Pixel 5 API 29 was used for emulation and testing.
+Ключ Google API на платформе Google Maps требуется для следующих API:
+- API направлений
+- API матрицы расстояний
+– Карты SDK для Android<br>
 
-A Google API key on the Google Maps Platform is required with the following APIs:
-- Directions API
-- Distance Matrix API
-- Maps SDK for Android<br>
-
-The API key must be added in the following file:
+Ключ API должен быть добавлен в следующий файл:
 - [strings.xml]
-<br>
+
 
